@@ -62,7 +62,7 @@
             dogInputs.forEach((input, index) => {
                 if (input.value.trim() === '') {
                     const errorMessage = document.createElement('div');
-                    errorMessage.textContent = `Please enter a name for dog ${index + 1}.`;
+                    errorMessage.textContent = `Please enter a test for dog ${index + 1}.`;
                     validationBox.appendChild(errorMessage);
                     validationBox.style.display = 'block';
                     input.classList.add('input-error');
